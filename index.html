@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.apkthing.com/uploads/posts/2015-11/thumbs/1447125863_tip-calculatorvsac.png">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="calc-info">
+        <div class="tip-enter-slide">
+            <div class="bill-section">
+                <p class="bill-text">Bill</p>
+                <div class="input-holder">
+                    <i class="fa fa-dollar icon"></i>
+                    <input type="text" placeholder="0" class="bill">
+                </div>
+            </div>
+            <div class="tip-enter-section">
+                <div class="tip-text">
+                    <p class="select-tip-text">Select Tip %</p>
+                </div>
+                <div class="tip">
+                    <button class="perc" data-perc="5">5%</button>
+                    <button class="perc" data-perc="10">10%</button>
+                    <button class="perc" data-perc="15">15%</button>
+                </div>
+                <div class="tip">
+                    <button class="perc" data-perc="25">25%</button>
+                    <button class="perc" data-perc="50">50%</button>
+                    <button class="perc-custom">Custom</button>
+                </div>
+            </div>
+            <div class="people-no-section">
+                <p class="people-text">Number of People</p>
+                <div class="input-holder">
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" placeholder="0" class="people-num">
+                </div>
+            </div>
+        </div>
+
+        <div class="billing-slide">
+            <div class="tip-amount">
+                <div class="tip-amount-text">
+                    <p>Tip Amount</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div>
+                    <p class="amount">$0.00</p>
+                </div>
+            </div>
+            <div class="total-amount">
+                <div class="total-text">
+                    <p>Total</p>
+                    <p class="person">/ person</p>
+                </div>
+                <div>
+                    <p class="amount">$0.00</p>
+                </div>
+            </div>
+            <div>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
