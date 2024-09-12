@@ -32,7 +32,7 @@ body {
     caret-color: transparent;
     background-color: aliceblue;
     box-shadow: 1px 1px 3px gray;
-    
+    padding-right : 8px;
 }
 
 
@@ -93,7 +93,6 @@ body {
 }
 .bill::placeholder, .people-num::placeholder {
     text-align: right;
-    padding: 8px;
 }
 .tip-amount, .total-amount {
     color: white;
